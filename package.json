@@ -1,20 +1,18 @@
 {
-  "name": "cordova-plugin-insomnia",
-  "version": "4.3.0",
+  "name": "@globules-io/cordova-plugin-insomnia",
+  "version": "0.9.0",
   "description": "Prevent the screen of the mobile device from falling asleep.",
   "cordova": {
-    "id": "cordova-plugin-insomnia",
+    "id": "@globules-io/cordova-plugin-insomnia",
     "platforms": [
-      "ios",
-      "wp8",
+      "ios",     
       "windows",
-      "android",
-      "firefoxos"
+      "android"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EddyVerbruggen/Insomnia-PhoneGap-Plugin.git"
+    "url": "git+https://github.com/globules-io/cordova-plugin-insomnia.git"
   },
   "keywords": [
     "ecosystem:cordova",
@@ -24,16 +22,10 @@
     "cordova-android",
     "cordova-firefoxos"
   ],
-  "engines": [
-    {
-      "name": "cordova",
-      "version": ">=3.0.0"
-    }
-  ],
-  "author": "Eddy Verbruggen <eddyverbruggen@gmail.com> (https://github.com/EddyVerbruggen)",
+  "author": "globules.io",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/EddyVerbruggen/Insomnia-PhoneGap-Plugin/issues"
+    "url": "https://github.com/globules-io/cordova-plugin-insomnia/issues"
   },
-  "homepage": "https://github.com/EddyVerbruggen/Insomnia-PhoneGap-Plugin#readme"
+  "homepage": "https://github.com/globules-io/cordova-plugin-insomnia#readme"
 }
