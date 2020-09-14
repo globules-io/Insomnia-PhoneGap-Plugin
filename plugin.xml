@@ -2,35 +2,31 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="@globules-io/cordova-plugin-insomnia" version="0.9.0">
   <name>Insomnia (prevent screen sleep)</name>
   <description>Prevent the screen of the mobile device from falling asleep.</description>
+  <author></author>  
+  <repo>https://github.com/globules-io/cordova-plugin-insomnia.git</repo>
+  <issue>https://github.com/globules-io/cordova-plugin-insomnia/issues</issue>
   <license>MIT</license>
-  <engines>
-    <engine name="cordova" version=">=6.0.0"/>
-  </engines>
-
+  <keywords>cordova,screen,awake</keywords>
   <js-module src="www/Insomnia.js" name="Insomnia">
-    <clobbers target="insomnia" />
-  </js-module>
+    <clobbers target="insomnia"/>
+  </js-module>  
 
   <platform name="ios">
-
     <config-file target="config.xml" parent="/*">
       <feature name="Insomnia">
         <param name="ios-package" value="Insomnia"/>
       </feature>
     </config-file>
-
     <header-file src="src/ios/Insomnia.h"/>
     <source-file src="src/ios/Insomnia.m"/>
   </platform>
   
   <platform name="android">
-
     <config-file target="res/xml/config.xml" parent="/*">
-      <feature name="Insomnia">
-        <param name="android-package" value="nl.xservices.plugins.Insomnia" />
-      </feature>
+        <feature name="Insomnia">
+            <param name="android-package" value="nl.xservices.plugins.Insomnia" />
+        </feature>
     </config-file>
-
     <source-file src="src/android/nl/xservices/plugins/Insomnia.java" target-dir="src/nl/xservices/plugins"/>
   </platform>
 
@@ -45,5 +41,4 @@
       <runs />
     </js-module>
   </platform>  
-
 </plugin>
