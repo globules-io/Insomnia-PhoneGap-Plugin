@@ -7,7 +7,7 @@ Insomnia.prototype.keepAwake = function (successCallback, errorCallback) {
 Insomnia.prototype.allowSleepAgain = function (successCallback, errorCallback) {
   cordova.exec(successCallback, errorCallback, "Insomnia", "allowSleepAgain", []);
 };
-if(!window.hasOwnPropertyt('plugins')){
+if(!window.hasOwnProperty('plugins')){
     window.plugins = {};
 }
 window.plugins.insomnia = new Insomnia();
