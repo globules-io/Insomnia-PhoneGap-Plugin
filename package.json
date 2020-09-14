@@ -1,6 +1,6 @@
 {
   "name": "@globules-io/cordova-plugin-insomnia",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Prevent the screen of the mobile device from falling asleep.",
   "cordova": {
     "id": "@globules-io/cordova-plugin-insomnia",
